@@ -12,9 +12,13 @@
         </ion-toolbar>
       </ion-header>
 
-      <ExploreContainer name="Hi!" />
+      <div class="flex flex-col self-center items-center justify-center h-full space-y-3">
+        <Button appearance="primary">Hello FrappeUI</Button>
 
-      <h1 className="text-3xl font-bold text-green-700">Hello world!</h1>
+        <Badge color="yellow">Hello</Badge>
+
+        <h1 className="text-3xl font-bold text-green-700">Hello world!</h1>
+      </div>
     </ion-content>
   </ion-page>
 </template>
