@@ -11,19 +11,34 @@
           <ion-title size="large">Hot Reload works</ion-title>
         </ion-toolbar>
       </ion-header>
-    
+
       <ExploreContainer name="Hi!" />
+
+      <h1 className="text-3xl font-bold text-green-700">Hello world!</h1>
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import { defineComponent } from "vue";
+import {
+  IonPage,
+  IonHeader,
+  IonToolbar,
+  IonTitle,
+  IonContent,
+} from "@ionic/vue";
+import ExploreContainer from "@/components/ExploreContainer.vue";
 
-export default  defineComponent({
-  name: 'Tab1Page',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
+export default defineComponent({
+  name: "Tab1Page",
+  components: {
+    ExploreContainer,
+    IonHeader,
+    IonToolbar,
+    IonTitle,
+    IonContent,
+    IonPage,
+  },
 });
 </script>
